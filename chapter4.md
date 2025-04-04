@@ -2,7 +2,7 @@
 
 # Chapter 4
 
-# Building and Simulating Neural Networks**
+# Building and Simulating Neural Networks
 
 ----
 
