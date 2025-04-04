@@ -350,11 +350,9 @@ This chapter delved into the critical topic of **synaptic plasticity**, the fund
 *   **`6.2_PlasticNetworkActivityHomeostasis.ipynb`:** (Provided and explained in Section 6.5) Simulates a small E/I network where E-to-E synapses undergo a simple form of homeostatic synaptic scaling aimed at stabilizing postsynaptic firing rates around a target value. Demonstrates implementing dynamic weight changes (`dw/dt`) in the `Synapses` model based on estimated neuronal activity (`r_est`). Visualizes network activity and weight evolution to show stabilization.
 
 
-Okay, here is the expanded Chapter 6 reference list with slightly more detailed summaries for each entry, focusing on publications from 2022 onwards.
-
 ---
 
-**6.8 References for Further Reading**
+**References for Further Reading**
 
 1.  **Davis, G. W. (2023). Neural homeostasis: Mechanisms, circuits, and systems.** *Annual Review of Neuroscience, 46*, 215-236. https://doi.org/10.1146/annurev-neuro-111021-103215
     *   *Summary:* This comprehensive review provides an up-to-date overview of the diverse molecular and cellular mechanisms (including synaptic scaling and intrinsic plasticity) that contribute to neuronal homeostasis. It discusses how these mechanisms operate within specific circuits and across systems to maintain stable brain function, directly relevant to understanding the stability aspects discussed in Section 6.3.*
