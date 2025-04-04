@@ -2,9 +2,12 @@
 # Chapter 2: 
 
 # The Biological Substrate: Brain Organoids
+
 ---------
 
+
 This chapter delves into the intricate biological foundations of brain organoids, the living "wetware" that forms the substrate for the computational concepts explored later in this book. We will embark on a detailed examination of their origins, tracing their derivation from pluripotent stem cells and the fundamental principles governing their guided differentiation towards neural fates. The methodologies used to generate these complex three-dimensional structures *in vitro*, contrasting unguided self-organization with directed differentiation protocols aimed at specific brain regions, will be thoroughly discussed. Subsequently, we will explore the resulting cellular and structural composition of brain organoids, highlighting the diverse array of neurons, glial cells, and progenitors they contain, and the rudimentary but remarkable cytoarchitectural features that emerge through self-organization. We will then transition to their functional characteristics, describing the spontaneous electrical activity, network synchrony, and oscillatory dynamics commonly observed, which signify the presence of active neural circuits. Crucially, this chapter will also provide a candid and detailed assessment of the significant biological limitations inherent in current organoid technology—such as the lack of vascularization, incomplete maturation, cellular heterogeneity, and reproducibility challenges—which profoundly impact their potential utility and must be considered for any realistic appraisal of Organoid Computing. Finally, we will touch upon the specific ethical considerations intrinsically linked to the generation and maintenance of these human neural tissues *in vitro*. It is imperative to note that this chapter focuses exclusively on the biological underpinnings; computational modeling and the introduction of Brian2 simulations will commence in Chapter 3.
+
 ----------
 
 
