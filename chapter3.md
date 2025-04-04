@@ -1,6 +1,6 @@
 ---
 
-# Chapter 3
+# Chapter 3   
 
 # Fundamentals of Computational Neuroscience and Single Neurons
 -----
