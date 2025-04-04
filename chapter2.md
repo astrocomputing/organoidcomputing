@@ -1,5 +1,5 @@
 ---------
-# Chapter 2: 
+# Chapter 2 
 
 # The Biological Substrate: Brain Organoids
 
