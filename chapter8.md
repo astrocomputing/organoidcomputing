@@ -817,4 +817,5 @@ This chapter served as a crucial bridge, connecting our simulated neural network
     *   *Summary:* Provides an essential, detailed review of the latest MEA technologies, crucial for understanding the experimental methods used for both stimulation (Section 8.1) and recording (spikes/LFPs, Section 8.3) in organoids and other neural preparations. Highlights the capabilities and limitations relevant to the I/O bottleneck and hardware interfacing concepts (Sections 8.5, 8.6).*
 10. **Trujillo, C. A., Rice, E. S., Schaefer, N. K., & Muotri, A. R. (2022). Re-exploring brain function with human neural organoids.** *Cell Stem Cell, 29*(11), 1540–1558. https://doi.org/10.1016/j.stem.2022.10.006
     *   *Summary:* This comprehensive review covers functional assays applied to brain organoids, including methods for stimulation (Section 8.1) and recording (Section 8.3, calcium and MEA). It highlights the complex dynamics observed, motivating the need for sophisticated simulations and analysis/decoding techniques (Section 8.4) to understand their functional significance and potential for computation.*
-    *   ----
+
+----
