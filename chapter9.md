@@ -1,11 +1,14 @@
-Okay, here is the complete, expanded version of Chapter 9 again, incorporating the detailed explanations, additional code examples, and the revised 2022+ reference list with expanded summaries, as generated previously.
-
 ---
 
 # Chapter 9
-**Computational Primitives I: Logic and Memory in Organoid-Inspired Networks**
+
+# Computational Primitives I: Logic and Memory in Organoid-Inspired Networks
+
+---
 
 *Having established how to build and simulate dynamic networks with heterogeneity, spontaneous activity, and plasticity (Chapters 3-7), we now pivot towards exploring their potential **computational capabilities**. Can these complex, recurrent, spiking neural networks, inspired by the structure and dynamics of brain organoids, perform fundamental information processing tasks beyond simple signal transmission or pattern generation? This chapter begins our exploration of **computational primitives**—the basic building blocks from which more complex computations might be constructed—focusing first on elementary **logic-like operations** and fundamental mechanisms for **short-term or working memory**. We start by examining common **neural circuit motifs**, recurring patterns of connectivity like feedback loops (excitatory and inhibitory) and lateral inhibition, discussing their prevalence in biological circuits and their potential roles in shaping network computations and enabling specific functions. We then delve into the conceptual possibility, inherent challenges, and biophysical underpinnings of implementing functions **analogous** to basic **Boolean logic gates** (AND, OR, NOT) using networks of spiking neurons, emphasizing the critical differences from deterministic digital logic due to noise, timing sensitivity, and analog neuronal processing. Following this, we explore the neural mechanisms widely believed to underlie **short-term and working memory**—the brain's crucial ability to actively hold and manipulate information "online" for brief periods (seconds to minutes) to guide ongoing behavior. We focus particularly on the prominent role of **recurrent network dynamics** in generating **persistent activity** as a substrate for maintaining information, and conceptually introduce the complementary contribution of **short-term synaptic plasticity (STP)** in encoding recent activity history (deferring detailed STP modeling to Chapter 13). The concept of **state retention** through **attractor dynamics** in recurrent networks is elaborated as a robust theoretical mechanism for memory maintenance and pattern completion. Finally, the chapter provides practical **Brian2 implementation examples** with detailed explanations: one set demonstrates how specific network motifs can produce outputs analogous to simple logic gates (e.g., coincidence detection for AND, summation for OR, feedforward/feedback inhibition for NOT), exploring parameter sensitivity; the second example simulates a small recurrent E/I network exhibiting **bistability and persistent activity**, demonstrating a basic form of working memory where the network reliably holds its activity state (low or high) after being switched by transient input pulses.*
+
+---
 
 **9.1 Neural Circuit Motifs for Computation (Feedback, Lateral Inhibition)**
 
@@ -364,7 +367,8 @@ This chapter initiated our exploration into the fundamental **computational prim
 *   **`9.1_LogicGateMotifsSim.ipynb`:** (Provided and explained in Section 9.5) Simulates small motifs using LIF neurons and spike generators to demonstrate behaviors analogous to AND (coincidence detection), OR (input summation), and NOT (inhibition) logic gates, using voltage jump synapses for clarity.
 *   **`9.2_WorkingMemoryRecurrenceSim.ipynb`:** (Provided and explained in Section 9.5) Simulates a recurrent E/I network exhibiting bistability, where a transient input pulse switches the network to a persistent high-activity state, demonstrating a basic working memory mechanism using conductance-based synapses.
 
-**(Revised and Expanded) 9.9 References for Further Reading (APA Format - 2022 Onwards)**
+---
+**References for Further Reading**
 
 1.  **Abbasi, O., Jazayeri, M., & Ostojic, S. (2023). Geometry of population activity in spiking network models.** *Current Opinion in Neurobiology, 80*, 102708. https://doi.org/10.1016/j.conb.2023.102708
     *   *Summary:* This review explores modern theoretical approaches using dynamical systems and geometry to understand collective neural activity. It covers attractor dynamics, crucial for conceptualizing stable memory states (Section 9.4), and neural manifolds, providing a framework for interpreting high-dimensional network states in recurrent circuits (Section 9.1, 9.3).*
@@ -386,3 +390,5 @@ This chapter initiated our exploration into the fundamental **computational prim
     *   *Summary:* This computational study specifically examines how different inhibitory motifs (Section 9.1) and connectivity structures impact the computations (like gating or normalization) performed by spiking networks, relevant for understanding how inhibition shapes logic-like operations (Section 9.2) and stabilizes memory states (Section 9.4).*
 10. **Sprekeler, H. (2023). Balanced E/I in cortical networks: constraints, computations, and controversies.** *Current Opinion in Neurobiology, 83*, 102790. https://doi.org/10.1016/j.conb.2023.102790
     *   *Summary:* Provides a crucial review of E/I balance. Achieving the appropriate balance within recurrent circuits (Section 9.1) is fundamental for enabling stable persistent activity needed for working memory models (Sections 9.3, 9.4) while preventing uncontrolled excitation or oscillations.*
+   
+---
