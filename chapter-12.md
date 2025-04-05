@@ -1,11 +1,14 @@
-Okay, here is the significantly expanded version of Chapter 12, with roughly doubled paragraph counts, more detailed explanations, more concrete code examples (including runnable examples for Sections 12.5 and 12.6 demonstrating the *effects*), while adhering to the established style, formatting, and reference requirements.
-
----
+----
 
 # Chapter 12
-**Modeling Glial Contributions to Neural Network Dynamics**
+
+# Modeling Glial Contributions to Neural Network Dynamics
+
+----
 
 *Up to this point, our computational exploration has largely adhered to a neuron-centric view of brain function, focusing almost exclusively on the dynamics and interactions of neurons and their synapses. However, the brain is far more than just a network of neurons. It contains a vast population of non-neuronal cells collectively known as **glia**, which outnumber neurons in many brain regions and constitute a significant fraction of the brain's volume. Traditionally viewed as mere structural support or "glue" (hence the name), providing metabolic sustenance and insulation, the past few decades have revolutionized our understanding, revealing glia as **active participants** in nearly every aspect of brain development, function, plasticity, and pathology. Glial cells engage in intricate, **bidirectional communication** with neurons, dynamically regulate the critical **neuronal microenvironment**, profoundly influence **synaptic transmission and plasticity**, contribute centrally to brain **metabolism** and blood flow regulation, actively **modulate network activity** patterns, and orchestrate the brain's response to **injury and infection**. Ignoring the multifaceted contributions of these "other brain cells" provides an incomplete, and potentially fundamentally misleading, picture of how neural circuits operate and compute. This chapter delves into the significant challenge and growing necessity of incorporating glial functions into our computational models of neural networks, particularly relevant for understanding complex systems like brain organoids where neuron-glia interactions co-develop. We begin by **highlighting in greater detail why modeling glia is important** for achieving biological realism and capturing key computational mechanisms, briefly introducing the major glial types relevant to computation in the CNS: **astrocytes**, **oligodendrocytes**, and **microglia**. We then dedicate expanded sections to discussing the key known functions of each glial type and exploring **conceptual and practical strategies for modeling their influence** on neuronal and synaptic activity within a simulation framework like Brian2. Specifically, we delve deeper into **astrocyte roles in ion homeostasis (K+ buffering)**, **neurotransmitter uptake (glutamate clearance)**, and **calcium signaling leading to gliotransmission**; the critical impact of **oligodendrocytes on action potential conduction velocity via myelination**; and the dynamic roles of **microglia in synaptic pruning during development and plasticity, and their complex involvement in neuroinflammation**. We explicitly address the substantial **challenges and unavoidable simplifications** inherent in modeling these complex, often slow, spatially distributed, and biochemically intricate glial processes, particularly within simulation platforms primarily optimized for neuronal point-network dynamics. Finally, the chapter provides more concrete **Brian2 implementation examples**, illustrating how the *functional consequences* of these glial activities might be approximated by dynamically modulating neuronal or synaptic parameters within simulations, while carefully acknowledging the simplified and phenomenological nature of these implementations.*
+
+----
 
 **12.1 The "Other Brain Cells": Why Model Glia?**
 
@@ -426,7 +429,8 @@ This chapter significantly broadened our modeling perspective by incorporating t
 *   **`12.3_OligoMyelinationEffectSim.ipynb`:** (Effective Code Provided) Demonstrates the impact of differential synaptic delays on signal arrival time, representing myelinated vs. unmyelinated pathways.
 *   **`12.4_MicrogliaInflammationEffectSim.ipynb`:** (Effective Code Provided) Demonstrates dynamically modulating neuronal firing thresholds based on a simulated time-varying 'inflammation level', showing impact on network excitability.
 
-**(Revised and Expanded) 12.10 References for Further Reading (APA Format - 2022 Onwards)**
+----
+**References for Further Reading**
 
 1.  **Bedner, P., Jukkola, P., Constien, R., Pfeiffer, T., Odermatt, B., Praetorius, U., ... & Steinhäuser, C. (2023). Astrocyte uncoupling enables enhanced cognition.** *bioRxiv*, 2023.04.19.537496. https://doi.org/10.1101/2023.04.19.537496
     *   *Summary:* This recent experimental study provides evidence suggesting that the degree of astrocyte coupling through gap junctions directly influences network oscillations and cognitive functions. This underscores the importance of the astrocyte syncytium (relevant to spatial K+ buffering, Section 12.2) in shaping large-scale brain dynamics.*
@@ -448,3 +452,6 @@ This chapter significantly broadened our modeling perspective by incorporating t
     *   *Summary:* Provides a detailed review of the cellular and molecular mechanisms involved in synaptic pruning by glial cells, primarily microglia but also involving astrocyte signals, during development and potentially in plasticity. Essential background for understanding the biological basis of structural remodeling (Section 12.6).*
 10. **Yi, M., Wang, J., Tian, L., & Zhou, Y. (2023). Computational modeling of tripartite synapses: exploring the roles of astrocytes in synaptic information processing.** *Cognitive Neurodynamics, 17*(2), 261-285. https://doi.org/10.1007/s11571-022-09857-z
     *   *Summary:* This review specifically surveys computational approaches aimed at modeling the tripartite synapse, including astrocyte calcium dynamics, gliotransmitter release, and uptake mechanisms (Sections 12.3, 12.4). It showcases examples of more detailed, biophysically grounded models than the conceptual snippets presented here, indicating directions for more realistic glial modeling.*
+
+----
+
