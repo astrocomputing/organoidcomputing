@@ -521,7 +521,8 @@ This chapter significantly expanded our toolkit of single-neuron models, moving 
 *   **`11.2_AdExAdaptationBursting.ipynb`:** (Provided and explained in Section 11.8) Implements the Adaptive Exponential Integrate-and-Fire (AdEx) model, simulating and plotting side-by-side examples of spike-frequency adaptation and intrinsic bursting achieved with different parameter sets.
 *   **`11.3_IzhikevichFiringPatterns.ipynb`:** (Provided and explained in Section 11.8) Implements the Izhikevich model, simulating multiple neurons concurrently with parameters for different canonical firing patterns (RS, IB, CH, FS, etc.) and visualizing the distinct outputs to demonstrate the model's versatility and efficiency.
 
-**(Revised and Expanded) 11.10 References for Further Reading (APA Format - 2022 Onwards)**
+----
+**References for Further Reading**
 
 1.  **Abbasi, O., Jazayeri, M., & Ostojic, S. (2023). Geometry of population activity in spiking network models.** *Current Opinion in Neurobiology, 80*, 102708. https://doi.org/10.1016/j.conb.2023.102708
     *   *Summary:* This review offers a modern perspective on analyzing spiking network dynamics using geometric concepts like neural manifolds and attractors. It bridges the gap between single-neuron properties (like those modeled by HH, AdEx, Izhikevich; Sections 11.2-11.5) and the emergent collective behavior of the network, providing theoretical context for why detailed neuron models might influence population computations.*
@@ -543,3 +544,5 @@ This chapter significantly expanded our toolkit of single-neuron models, moving 
     *   *Summary:* Presents a concrete research example using detailed multi-compartment modeling (Section 11.7) of a specific neuron type (L5 pyramidal). It incorporates specific ion channels (like $I_h$) with spatial distributions to investigate how cellular properties and dendritic currents contribute to network-level phenomena like EEG signals. Illustrates the power and necessity of spatial models for certain questions.*
 10. **Wybo, W., & Schutter, E. D. (2023). Realistic Neuron Modeling.** In *Encyclopedia of Computational Neuroscience* (pp. 2781-2790). Springer. https://doi.org/10.1007/978-1-4614-7320-6_101-2
     *   *Summary:* Offers a recent encyclopedic summary of realistic neuron modeling approaches. It covers both the biophysical underpinnings based on HH (Section 11.2) and the techniques and challenges involved in multi-compartment modeling (Section 11.7), discussing morphology reconstruction, channel fitting, and simulation tools.*
+
+----
