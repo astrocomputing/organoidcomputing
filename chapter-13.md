@@ -475,4 +475,5 @@ This chapter significantly enhanced the realism and computational potential of o
     *   *Summary:* Uses computational modeling to explore how the architecture of inhibitory circuits, involving synapses with specific kinetics (GABA_A/B, Section 13.2) and potentially distinct STP properties (Section 13.3), enables specific network computations like normalization or gain control.*
 10. **Trilla, F., Nörenberg, A., & Sprekeler, H. (2023). Short-term plasticity results in frequency-dependent information transmission in identify-and-fire neurons.** *bioRxiv*, 2023.12.06.570379. https://doi.org/10.1101/2023.12.06.570379
     *   *Summary:* This recent theoretical preprint analyzes how short-term plasticity mechanisms, as modeled phenomenologically (e.g., TM model, Section 13.3), act as dynamic filters that shape the transmission of information between spiking neurons in a way that depends critically on the frequency content of the input signal.*
-    *   ---
+
+---
