@@ -1,5 +1,3 @@
-Okay, here is the Appendix for the book "Organoid Computing," providing a detailed overview of the Brian2 simulator, focusing on the features used throughout the book, with expanded explanations and code examples linked to hypothetical `.ipynb` files.
-
 ----
 
 # Appendix
